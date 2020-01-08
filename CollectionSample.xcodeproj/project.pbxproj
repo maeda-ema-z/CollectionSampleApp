@@ -16,14 +16,6 @@
 		4BFA630423C58D2300883757 /* CollectionSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA630323C58D2300883757 /* CollectionSampleTests.swift */; };
 		4BFA630F23C58D2300883757 /* CollectionSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA630E23C58D2300883757 /* CollectionSampleUITests.swift */; };
 		4BFA631D23C596F400883757 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA631C23C596F400883757 /* CustomCell.swift */; };
-		4BFA631F23C5A0A100883757 /* water.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFA631E23C5A0A100883757 /* water.png */; };
-		4BFA632123C5B0F200883757 /* bed.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFA632023C5B0F200883757 /* bed.png */; };
-		4BFA632323C5B0FD00883757 /* meal.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFA632223C5B0FD00883757 /* meal.png */; };
-		4BFA632523C5B10A00883757 /* toilet.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFA632423C5B10A00883757 /* toilet.png */; };
-		4BFA632723C5B11C00883757 /* treatment.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFA632623C5B11C00883757 /* treatment.png */; };
-		4BFA632923C5B13100883757 /* medicine.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFA632823C5B13100883757 /* medicine.png */; };
-		4BFA632B23C5B13F00883757 /* drip.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFA632A23C5B13F00883757 /* drip.png */; };
-		4BFA632D23C5B28E00883757 /* nurse.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFA632C23C5B28E00883757 /* nurse.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,14 +51,6 @@
 		4BFA630E23C58D2300883757 /* CollectionSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionSampleUITests.swift; sourceTree = "<group>"; };
 		4BFA631023C58D2300883757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BFA631C23C596F400883757 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
-		4BFA631E23C5A0A100883757 /* water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = water.png; sourceTree = "<group>"; };
-		4BFA632023C5B0F200883757 /* bed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bed.png; sourceTree = "<group>"; };
-		4BFA632223C5B0FD00883757 /* meal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meal.png; sourceTree = "<group>"; };
-		4BFA632423C5B10A00883757 /* toilet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toilet.png; sourceTree = "<group>"; };
-		4BFA632623C5B11C00883757 /* treatment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = treatment.png; sourceTree = "<group>"; };
-		4BFA632823C5B13100883757 /* medicine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medicine.png; sourceTree = "<group>"; };
-		4BFA632A23C5B13F00883757 /* drip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drip.png; sourceTree = "<group>"; };
-		4BFA632C23C5B28E00883757 /* nurse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nurse.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,14 +109,6 @@
 				4BFA62F723C58D2300883757 /* LaunchScreen.storyboard */,
 				4BFA62FA23C58D2300883757 /* Info.plist */,
 				4BFA631C23C596F400883757 /* CustomCell.swift */,
-				4BFA631E23C5A0A100883757 /* water.png */,
-				4BFA632023C5B0F200883757 /* bed.png */,
-				4BFA632223C5B0FD00883757 /* meal.png */,
-				4BFA632423C5B10A00883757 /* toilet.png */,
-				4BFA632623C5B11C00883757 /* treatment.png */,
-				4BFA632823C5B13100883757 /* medicine.png */,
-				4BFA632A23C5B13F00883757 /* drip.png */,
-				4BFA632C23C5B28E00883757 /* nurse.png */,
 			);
 			path = CollectionSample;
 			sourceTree = "<group>";
@@ -261,15 +237,7 @@
 			files = (
 				4BFA62F923C58D2300883757 /* LaunchScreen.storyboard in Resources */,
 				4BFA62F623C58D2300883757 /* Assets.xcassets in Resources */,
-				4BFA632323C5B0FD00883757 /* meal.png in Resources */,
-				4BFA632923C5B13100883757 /* medicine.png in Resources */,
-				4BFA632523C5B10A00883757 /* toilet.png in Resources */,
-				4BFA632D23C5B28E00883757 /* nurse.png in Resources */,
-				4BFA632723C5B11C00883757 /* treatment.png in Resources */,
-				4BFA632B23C5B13F00883757 /* drip.png in Resources */,
-				4BFA632123C5B0F200883757 /* bed.png in Resources */,
 				4BFA62F423C58D2200883757 /* Main.storyboard in Resources */,
-				4BFA631F23C5A0A100883757 /* water.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
