@@ -16,6 +16,7 @@
 		4BFA630423C58D2300883757 /* CollectionSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA630323C58D2300883757 /* CollectionSampleTests.swift */; };
 		4BFA630F23C58D2300883757 /* CollectionSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA630E23C58D2300883757 /* CollectionSampleUITests.swift */; };
 		4BFA631D23C596F400883757 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA631C23C596F400883757 /* CustomCell.swift */; };
+		4BFAD39B23C817D200D94924 /* CallButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAD39A23C817D200D94924 /* CallButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		4BFA630E23C58D2300883757 /* CollectionSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionSampleUITests.swift; sourceTree = "<group>"; };
 		4BFA631023C58D2300883757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BFA631C23C596F400883757 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		4BFAD39A23C817D200D94924 /* CallButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				4BFA62F723C58D2300883757 /* LaunchScreen.storyboard */,
 				4BFA62FA23C58D2300883757 /* Info.plist */,
 				4BFA631C23C596F400883757 /* CustomCell.swift */,
+				4BFAD39A23C817D200D94924 /* CallButton.swift */,
 			);
 			path = CollectionSample;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				4BFA62ED23C58D2200883757 /* AppDelegate.swift in Sources */,
 				4BFA631D23C596F400883757 /* CustomCell.swift in Sources */,
 				4BFA62EF23C58D2200883757 /* SceneDelegate.swift in Sources */,
+				4BFAD39B23C817D200D94924 /* CallButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

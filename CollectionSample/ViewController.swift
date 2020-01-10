@@ -29,20 +29,27 @@ extension ViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell: CustomCell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! CustomCell
         if indexPath.row == 0 {
-            cell.lblSample.text = "Water"
-            cell.imgSample.image = UIImage(named: "water.png")
+//            cell.lblSample.text = "Water"
+            cell.buttonSample.setTitle("Water", for: .normal)
+//            cell.buttonSample.setBackgroundImage(UIImage(named: "water"), for: .normal)
+            cell.buttonSample.setImage(UIImage(named: "water"), for: .normal)
+//            cell.buttonSample.backgroundColor = .red
         } else if indexPath.row == 1 {
-            cell.lblSample.text = "Drip"
-            cell.imgSample.image = UIImage(named: "drip.png")
+//            cell.lblSample.text = "Drip"
+            cell.buttonSample.setTitle("Drip", for: .normal)
+            cell.buttonSample.setBackgroundImage(UIImage(named: "drip"), for: .normal)
         } else if indexPath.row == 2 {
-            cell.lblSample.text = "Treatment"
-            cell.imgSample.image = UIImage(named: "treatment.png")
+//            cell.lblSample.text = "Treatment"
+            cell.buttonSample.setTitle("Treatment", for: .normal)
+            cell.buttonSample.setImage(UIImage(named: "treatment"), for: .normal)
         } else if indexPath.row == 3 {
-            cell.lblSample.text = "Toilet"
-            cell.imgSample.image = UIImage(named: "toilet.png")
+//            cell.lblSample.text = "Toilet"
+            cell.buttonSample.setTitle("Toilet", for: .normal)
+            cell.buttonSample.setImage(UIImage(named: "toilet"), for: .normal)
         } else {
-            cell.lblSample.text = "???"
-            cell.imgSample.image = UIImage(named: "nurse.png")
+//            cell.lblSample.text = "???"
+            cell.buttonSample.setTitle("???", for: .normal)
+            cell.buttonSample.setImage(UIImage(named: "nurse"), for: .normal)
         }
 //        cell.backgroundColor = .red
         return cell

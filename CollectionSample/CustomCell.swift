@@ -10,8 +10,7 @@ import Foundation
 import UIKit
 
 class CustomCell: UICollectionViewCell {
-    @IBOutlet var imgSample: UIImageView!
-    @IBOutlet var lblSample: UILabel!
+    @IBOutlet var buttonSample: UIButton!
 
     override init(frame: CGRect) {
         super.init(frame: frame)
